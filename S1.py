@@ -49,3 +49,9 @@ xyz = "Hellow"
 abc = "Aditi"
 final = "{}, {}. Welcome!" .format(xyz, abc)
 print(final)
+
+#an integer n float
+#printing data type of a variable
+
+num = 3.14
+print = (type(num))
