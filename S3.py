@@ -46,3 +46,9 @@ print(courses)
 #method2- the pop method- to remove the last value o
 courses.pop()
 print(courses)
+
+#sorting
+#reversing
+fruits = ['apple', 'banana', 'pineapple', 'anar']
+fruits.reverse()
+print(fruits)
