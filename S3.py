@@ -52,3 +52,14 @@ print(courses)
 fruits = ['apple', 'banana', 'pineapple', 'anar']
 fruits.reverse()
 print(fruits)
+#sorting is alphabetically here
+fruits.sort()
+print(fruits)
+
+nums = [1, 5, 7, 9]
+nums.sort()
+print(nums)
+nums.sort(reverse=True)
+fruits.sort(reverse=True)
+print(nums)
+print(fruits)
