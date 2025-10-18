@@ -63,3 +63,27 @@ nums.sort(reverse=True)
 fruits.sort(reverse=True)
 print(nums)
 print(fruits)
+
+#wanting a sorted version of the list without tampering with the og list
+sorted_courses = sorted(nums)
+print(sorted_courses)
+
+#printing min value
+print(min(nums))
+
+#printing max value
+print(max(nums))
+
+#printing min value
+print(sum(nums))
+
+#finding out index of the elements in a list
+subj = ['History', 'Math', 'CompSci', 'Art']
+print(subj.index('CompSci'))
+#for a value that doesnt exist u'll get value error
+print('Math' in subj) #will give true
+print('Hindi' in subj) #will give false
+
+#for loop
+for item in subj:
+    print(item)
