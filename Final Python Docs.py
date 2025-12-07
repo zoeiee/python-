@@ -1,19 +1,30 @@
-def hie():
-    print("Wassup")
 
-hie()
-hie()
-hie()
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict["brand"])
 
-cars = ["HH", "JJ", "PP", "TT"]
-x = len(cars)
+car = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 1964
+}
+
+x = car.keys()
+
 print(x)
+car = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 1964
+}
 
-fr = ["zz", "xx", "pp"]
-fr[0] = "cc"
-for x in fr:
-    print(x)
-fr.append("ee")
-print(fr)
-fr.pop(2)
-print(fr)
+x = car.keys()
+
+print(x) #before the change
+
+car["color"] = "white"
+
+print(x) 
