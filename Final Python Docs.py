@@ -87,5 +87,56 @@ else:
 
 a, b = 45, 34
 min = a if a<b else b
-print(b)"""
+print(b)
 
+n = 4
+for i in range(0,n-1):
+    print(i)
+li = ["My", "name", "is", "Agent 091"]
+for i in li:
+    print(i)
+tup = ("My", "name", "is", "Agent 091")
+for i in tup:
+    print(i)
+s = "abc"
+for i in s:
+    print(i)
+d = dict({'x': 1, 'y': 2, 'z': 3})
+for i in d:
+    print(i)
+set1 = {1, 2, 3, 4}
+for i in set1:
+    print(i)
+
+li = ["My", "name", "is", "Agent 091"]
+for index in range(len(li)):
+    print(li[index])
+
+cnt = 0
+while(cnt < 5):
+    cnt += 1
+    print("Hello, Codeforces!")
+
+for i in range(1,5):
+    for j in range(i):
+        print
+def fun():
+    print("Hello, Codeforces!")
+
+fun()
+fun()
+fun()
+fun()
+
+def func(x):
+    if (x % 2 == 0):
+        return "Even"
+    else:
+        return "Odd"
+print(func(56))
+print(func(33))"""
+
+s = "Final Python Docs"
+print(s)
+for char in s:
+    print(char)
