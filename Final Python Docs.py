@@ -83,8 +83,9 @@ else:
 if(b not in list):
     print("oops")
 else: 
-    print("yayaya")"""
+    print("yayaya")
 
 a, b = 45, 34
 min = a if a<b else b
-print(b)
+print(b)"""
+
