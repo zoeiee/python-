@@ -134,9 +134,18 @@ def func(x):
     else:
         return "Odd"
 print(func(56))
-print(func(33))"""
+print(func(33))
 
 s = "Final Python Docs"
 print(s)
 for char in s:
-    print(char)
+    print(char)"""
+
+s = "Final Python Docs"
+s1 = "f" + s[1:]
+s2 = s.replace("Python", "Java")
+print(s1)
+print(s2)
+print(s.upper())
+print(s.lower())
+
