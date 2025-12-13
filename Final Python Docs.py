@@ -139,7 +139,7 @@ print(func(33))
 s = "Final Python Docs"
 print(s)
 for char in s:
-    print(char)"""
+    print(char)
 
 s = "Final Python Docs"
 s1 = "f" + s[1:]
@@ -149,3 +149,48 @@ print(s2)
 print(s.upper())
 print(s.lower())
 
+
+#question 1
+
+#METHOD1
+a = 6
+b = 8
+print(a+b)
+#METHOD2
+sum = a + b
+print("Sum of a and b is: ", sum)
+#METHOD3
+a = int(input("Enter value of a: "))
+b = int(input("Enter value of b: "))
+sum = a + b
+print("Sum of a and b is: ", sum)
+#METHOD4
+def add(x,y):
+    return x + y
+
+sum = add(5678423, 23445)
+print("Sum is: ", sum)
+#METHOD5
+sum = lambda p, q: p + q
+print("Sum is: ", sum(5,8))"""
+
+#question 2
+
+#METHOD1
+a = 34
+b = 89
+print(max(a, b))
+
+#METHOD2
+print(a if a > b else b)
+
+#METHOD3
+if (a > b):
+    print
+else:
+    print(b)
+
+#METHOD4
+list = [a, b]
+num.sort
+print(list[-1])
