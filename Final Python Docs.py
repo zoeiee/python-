@@ -172,7 +172,7 @@ sum = add(5678423, 23445)
 print("Sum is: ", sum)
 #METHOD5
 sum = lambda p, q: p + q
-print("Sum is: ", sum(5,8))"""
+print("Sum is: ", sum(5,8))
 
 #question 2
 
@@ -192,5 +192,44 @@ else:
 
 #METHOD4
 list = [a, b]
-num.sort
+list.sort()
 print(list[-1])
+
+#QUESTION3
+
+#METHOD1
+p = float(input("Enter the principal amount:"))
+r = float(input("Enter the rate of interest:"))
+t = int(input("Enter the time period in years:"))
+
+amount = (p * r * t)/100
+print("The amount is:", amount)
+
+#METHOD2
+def fun(p,t,r):
+    return(p*r*t)/100
+p,t,r = 8,9,4
+res = fun(p,t,r)
+print(res)
+
+#METHOD3
+si = lambda p,t,r: (p*t*r)/100
+p,t,r = 8,6,8
+res= si(p,t,r)
+
+print(res)"""
+
+#QUESTION4
+#method1
+import math
+r = 9
+area = math.pi * (r ** 2)
+print(area)
+
+#method2
+import math
+r = 9
+area = math.pi * math.pow(r, 2)
+print(area)
+
+
