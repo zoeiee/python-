@@ -217,7 +217,7 @@ si = lambda p,t,r: (p*t*r)/100
 p,t,r = 8,6,8
 res= si(p,t,r)
 
-print(res)"""
+print(res)
 
 #QUESTION4
 #method1
@@ -230,6 +230,16 @@ print(area)
 import math
 r = 9
 area = math.pi * math.pow(r, 2)
-print(area)
+print(area)"""
 
+from math import sqrt
+def Prime(n, i):
+    if i == 1 or i == 2:
+        return True
+    if n % i == 0:
+        return False
+    return Prime(n, i-1)
+n = 13
+i = int(sqrt(n)+ 1)
+print(Prime(n,i))
 
