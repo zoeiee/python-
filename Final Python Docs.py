@@ -230,7 +230,7 @@ print(area)
 import math
 r = 9
 area = math.pi * math.pow(r, 2)
-print(area)"""
+print(area)
 
 from math import sqrt
 def Prime(n, i):
@@ -241,5 +241,19 @@ def Prime(n, i):
     return Prime(n, i-1)
 n = 13
 i = int(sqrt(n)+ 1)
-print(Prime(n,i))
+print(Prime(n,i))"""
+
+# To find the n-th Fibonacci Number using formula
+from math import sqrt 
+# import square-root method from math library
+def nthFib(n):
+    res = (((1+sqrt(5))**n)-((1-sqrt(5)))**n)/(2**n*sqrt(5))
+    # compute the n-th fibonacci number
+    print(int(res),'is',str(n)+'th fibonacci number')
+    # format and print the number
+    
+# driver code
+nthFib(12)
+
+# This code is contributed by Kush Mehta
 
